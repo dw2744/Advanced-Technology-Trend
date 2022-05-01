@@ -6,7 +6,7 @@ ShinyApp link: https://nyuprof.shinyapps.io/TechTrendTracker_DuoduoWang/
 **Project inside Process:**
 1. Scrap the job URL from the Indeed.com
 2. Scanning and analysing the text from each URL
-3. Generate CSV files and store it in the Dropbox cloud account
+3. Generate CSV files and store it in the **_Dropbox_** cloud account
 4. Generate bar charts and graphs
 
 **User Guide of the tool:**
