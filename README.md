@@ -20,4 +20,4 @@ Step 1: Select category to scan
 
 Step 2: Check the charts on the Trend page.
     
-    Tips: If you need the latest data, make sure the Scanning page is scanning successfully.
+    		Tips: If you need the latest data, make sure the Scanning page is scanning successfully.
