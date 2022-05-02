@@ -7,6 +7,10 @@ library(ggplot2)
 library(lubridate)
 library(rdrop2)
 
+#outputDir <-""
+token<-readRDS("token.rds")
+#token$refresh()
+
 ui <- dashboardPage(
   
   dashboardHeader(
@@ -109,7 +113,7 @@ border-top-color:#8900e1;
                 box(
                   imageOutput("plot_cover"), width = 4,status = "primary", align = "center")
                 
-               
+                
               )
               
       ),
@@ -137,7 +141,7 @@ border-top-color:#8900e1;
                      
                 ),
                 box(h3(strong("Step 1"), align = "left"),
-
+                    
                     h4("Select category to scan", align = "left"),
                     p("1.1  Select None: Check the data without scanning, you don't need extra time to wait. 
                       Skip the Scanning page and click the Trend page to view the charts.
@@ -222,6 +226,7 @@ border-top-color:#8900e1;
 )
 
 server <-function(input, output) {
+
   fileselect <-function(job){
     files <- drop_dir()
     files <- files$name
