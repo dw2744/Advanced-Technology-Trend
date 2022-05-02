@@ -21,3 +21,10 @@ Step 1: Select category to scan
 Step 2: Check the charts on the Trend page.
     
    	Tips: If you need the latest data, make sure the Scanning page is scanning successfully.
+
+
+**About the DropBox**
+
+Since Shinyappio does not have the ability to store data, Dropbox is an optional but unstable storage option. Dropbox requires Shinyapp to authenticate your account in real time, and can't completely automate the authentication process.
+
+If you need to use this tool for a long time, you are advised to use Rstudio to run the code and connect to your personal Dropbox account locally. Connecting (or not connecting) to Dropbox and generating files in the cloud (local) would be better.
